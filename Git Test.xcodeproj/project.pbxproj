@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E31C90291919B1990073D724 /* ZQTEST.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C90281919B1990073D724 /* ZQTEST.m */; };
 		E38424C41918452E001334AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38424C31918452E001334AD /* Foundation.framework */; };
 		E38424C61918452E001334AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38424C51918452E001334AD /* CoreGraphics.framework */; };
 		E38424C81918452E001334AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38424C71918452E001334AD /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E31C90271919B1990073D724 /* ZQTEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTEST.h; sourceTree = "<group>"; };
+		E31C90281919B1990073D724 /* ZQTEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTEST.m; sourceTree = "<group>"; };
 		E38424C01918452E001334AD /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38424C31918452E001334AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E38424C51918452E001334AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,8 @@
 		E38424B71918452E001334AD = {
 			isa = PBXGroup;
 			children = (
+				E31C90271919B1990073D724 /* ZQTEST.h */,
+				E31C90281919B1990073D724 /* ZQTEST.m */,
 				E38424C91918452E001334AD /* Git Test */,
 				E38424E81918452E001334AD /* Git TestTests */,
 				E38424C21918452E001334AD /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				E38424D01918452E001334AD /* main.m in Sources */,
 				E38424D41918452E001334AD /* ZQAppDelegate.m in Sources */,
+				E31C90291919B1990073D724 /* ZQTEST.m in Sources */,
 				E38424DA1918452E001334AD /* ZQViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				E38424F41918452E001334AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E38424F51918452E001334AD /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				E38424F71918452E001334AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
